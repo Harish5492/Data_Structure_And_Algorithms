@@ -17,8 +17,8 @@ Use Case: Small or nearly sorted datasets.
  */
 
 let arr = [4, 9, 7, 8, 3];
-function InsertionSort() {
-  for (let i = 0; i < arr.length; i++) {
+function InsertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
     let current = arr[i];
     let j = i - 1;
     while (j >= 0 && arr[j] > current) {
