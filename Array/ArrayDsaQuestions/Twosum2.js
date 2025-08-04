@@ -7,11 +7,12 @@ function TwoSum2(nums, target) {
     if (sum === target) {
       result.push(left + 1, right + 1);
     }
-    if (sum < target) {
-      left++;
-    } else {
-      right--;
-    }
+    // if (sum < target) {
+    //   left++;
+    // } else {
+    //   right--;
+    // }
+    sum < target ? left++ : right--;
   }
   return result;
 }

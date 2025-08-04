@@ -23,9 +23,9 @@ function fibonacciSeries(n) {
     array.push(b);
   }
 
-  return `At the ${n}th position, the Fibonacci Number is ${b}
-   and the series is [${array.join(","
-  )}].`;
+  return `At the ${n}th position, 
+            the Fibonacci Number = ${b} 
+            and the series = [${array.join(",")}].`;
 }
 
 console.log(fibonacciSeries(5));

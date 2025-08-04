@@ -25,7 +25,7 @@ function longestPalindrone(string){
             start
         })
         if(len > end - start){
-            start = Math.ciel(i - (len - 1) / 2);
+            start = Math.ceil(i - (len - 1) / 2);
             end = Math.floor(i + len / 2);
         }
     }

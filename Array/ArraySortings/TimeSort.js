@@ -32,3 +32,10 @@ function timeSort(arr) {
 
 const arr = [4, 2, 5, 10, 2];
 timeSort(arr).then((sortedArr) => console.log(sortedArr));
+
+
+
+let a = 5;
+let b = 10;
+
+console.log(a++ + ++b)
